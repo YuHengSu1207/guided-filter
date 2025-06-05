@@ -1,9 +1,9 @@
 import numpy as np
 
-from cv.pad import padding_constant
-from cv.pad import padding_edge
-from cv.pad import padding_reflect
-from cv.pad import padding_reflect_101
+from guided_filter.cv.pad import padding_constant
+from guided_filter.cv.pad import padding_edge
+from guided_filter.cv.pad import padding_reflect
+from guided_filter.cv.pad import padding_reflect_101
 
 
 def box_filter(I, r, normalize=True, border_type='reflect_101'):

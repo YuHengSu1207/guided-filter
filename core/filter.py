@@ -1,7 +1,7 @@
 import numpy as np
 
-from cv.smooth import box_filter
-from cv.image import to_32F
+from guided_filter.cv.smooth import box_filter
+from guided_filter.cv.image import to_32F
 
 
 class GuidedFilter:
